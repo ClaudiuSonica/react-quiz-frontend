@@ -82,7 +82,7 @@ const reducer = (state, action) => {
   }
 };
 
-const apiURL = "localhost:3300";
+const apiURL = "localhost:3300/questions";
 
 const App = () => {
   const [
