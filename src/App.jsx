@@ -82,7 +82,7 @@ const reducer = (state, action) => {
   }
 };
 
-const apiURL = "/.netlify/functions/questions";
+const apiURL = "localhost:3300";
 
 const App = () => {
   const [
