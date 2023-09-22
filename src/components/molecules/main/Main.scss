@@ -1,0 +1,9 @@
+@import "../../../sass/variables";
+
+.main {
+  @media screen and (max-width: $md) {
+    width: 100%;
+  }
+
+  width: 50rem;
+}

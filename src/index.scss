@@ -1,0 +1,13 @@
+@import "./sass/variables";
+
+body {
+  color: $colorLight;
+  background-color: $colorDarkest;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

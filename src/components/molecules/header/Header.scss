@@ -1,0 +1,32 @@
+@import "../../../sass/variables";
+
+.app-header {
+  @media screen and (max-width: $md) {
+    width: 100%;
+  }
+
+  width: 66rem;
+  margin-bottom: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  img {
+    @media screen and (max-width: $md)  {
+      width: 7rem;
+      height: 7rem;
+    }
+
+    width: 14rem;
+    height: 14rem;
+  }
+  
+  h1 {
+    @media screen and (max-width: $md)  {
+      font-size: 2rem;
+    }
+      
+    font-family: "Codystar";
+    font-size: 5.6rem;
+  }
+}
