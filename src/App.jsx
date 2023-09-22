@@ -82,7 +82,7 @@ const reducer = (state, action) => {
   }
 };
 
-const apiURL = "http://localhost:3300/questions";
+const apiURL = "https://react-quiz-backend-dbc1.onrender.com/questions";
 
 const App = () => {
   const [
